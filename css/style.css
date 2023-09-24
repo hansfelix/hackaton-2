@@ -6,10 +6,12 @@ alternativa:
 }
 
 */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .hero {
@@ -54,3 +56,17 @@ progress::-webkit-progress-value {
   border-radius: 10em;
   background: purple;
 }
+
+.wrapper-mis-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+
+.wrapper-mis-skills section {
+  margin-bottom: 20px;
+}
+
+
+
+
